@@ -7,9 +7,9 @@
 - **Icons:** Papirus-Dark
 - **Theme:** Breeze-Dark 
 
-`
+```
 sudo pacman -Syu
-`
+```
 ```
 sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber gstreamer gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly ffmpeg git gnome-keyring fastfetch nwg-look kde-cli-tools archlinux-xdg-menu mpd libappindicator-gtk3 mesa-utils mesa lib32-mesa vulkan-intel vulkan-radeon ark kio-admin polkit-kde-agent qt5-wayland qt6-wayland xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-user-dirs-gtk
 ```
@@ -23,7 +23,4 @@ makepkg -si
 ```
 ```
 yay -S --noconfirm wlogout qview visual-studio-code-bin slack swaync qt5ct-kde qt6ct-kde
-```
-```
-systemctl --user enable pipewire pipewire-pulse wireplumber
 ```
