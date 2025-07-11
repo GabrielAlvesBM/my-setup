@@ -1,0 +1,62 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "height": 16,
+  "spacing": 0,
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
+  "modules-right": [
+    "tray",
+    "pulseaudio",
+    "network",
+    "clock"
+  ],
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "warp-on-scroll": false,
+    "format": "{name}",
+    "format-icons": {
+      "urgent": "",
+      "focused": "",
+      "default": ""
+    }
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-bluetooth": " {icon} {volume}%",
+    "format-bluetooth-muted": "  {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "on-click": "pavucontrol"
+  },
+  "network": {
+    "format-wifi": "{essid} ",
+    "format-ethernet": "{ifname}",
+    "tooltip-format": "{ifname} via {gwaddr}\n{ipaddr}/{cidr}",
+    "format-linked": "{ifname} (No IP)",
+    "format-disconnected": "Disconnected ⚠ {ifname}"
+  },
+  "clock": {
+    "format": "{:%H:%M}",
+    "format-alt": "{:%d/%m/%Y}",
+    "tooltip-format": "<big>{:%H:%M:%S}</big>\n<tt><small>{calendar}</small></tt>"
+  }
+}
