@@ -20,7 +20,7 @@ sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-jack pipewir
   hyprland hyprlock hypridle hyprcursor hyprpaper hyprpicker hyprshot waybar kitty rofi-wayland dolphin \
   zsh vi vim curl less \
   dolphin-plugins vivaldi dunst cliphist mpv pavucontrol ttf-font-awesome ttf-jetbrains-mono-nerd \
-  ttf-opensans noto-fonts noto-fonts-emoji ttf-droid ttf-roboto ttf-fira-code ttf-fira-mono ttf-firacode-nerd \
+  ttf-opensans noto-fonts noto-fonts-emoji ttf-droid ttf-roboto ttf-fira-code ttf-fira-mono ttf-firacode-nerd ttf-cascadia-mono-nerd ttf-cascadia-code-nerd \
   otf-font-awesome
 
 if ! command -v yay &> /dev/null; then
