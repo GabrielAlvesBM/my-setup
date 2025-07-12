@@ -13,11 +13,11 @@ sudo pacman -Syu --noconfirm
 
 echo "Installing official packages..."
 sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber \
-  gstreamer gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly ffmpeg git base-devel \
+  gstreamer gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly ffmpeg git base-devel rsync \
   gnome-keyring fastfetch nwg-look kde-cli-tools archlinux-xdg-menu mpd libappindicator-gtk3 mesa-utils \
   mesa lib32-mesa vulkan-intel vulkan-radeon ark kio-admin polkit-kde-agent qt5-wayland qt6-wayland \
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-user-dirs-gtk \
-  hyprland hyprlock hypridle hyprcursor hyprpaper hyprpicker hyprshot waybar kitty rofi-wayland dolphin \
+  hyprland hyprlock hypridle hyprcursor hyprpaper hyprpicker hyprshot waybar kitty rofi-wayland dolphin zsh \
   dolphin-plugins vivaldi dunst cliphist mpv pavucontrol ttf-font-awesome ttf-jetbrains-mono-nerd \
   ttf-opensans noto-fonts noto-fonts-emoji ttf-droid ttf-roboto ttf-fira-code ttf-fira-mono ttf-firacode-nerd \
   otf-font-awesome
