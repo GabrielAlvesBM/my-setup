@@ -19,7 +19,7 @@ sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-jack pipewir
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-user-dirs-gtk \
   hyprland hyprlock hypridle hyprcursor hyprpaper hyprpicker hyprshot waybar kitty rofi-wayland dolphin \
   zsh vi vim curl less \
-  dolphin-plugins vivaldi dunst cliphist mpv pavucontrol ttf-font-awesome ttf-jetbrains-mono-nerd \
+  dolphin-plugins vivaldi dunst cliphist mpv pavucontrol ttf-font-awesome ttf-jetbrains-mono-nerd papirus-icon-theme \
   ttf-opensans noto-fonts noto-fonts-emoji ttf-droid ttf-roboto ttf-fira-code ttf-fira-mono ttf-firacode-nerd ttf-cascadia-mono-nerd ttf-cascadia-code-nerd \
   otf-font-awesome
 
