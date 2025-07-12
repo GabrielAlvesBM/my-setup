@@ -17,6 +17,7 @@ sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-jack pipewir
   gnome-keyring fastfetch nwg-look kde-cli-tools archlinux-xdg-menu mpd libappindicator-gtk3 mesa-utils \
   mesa lib32-mesa vulkan-intel vulkan-radeon ark kio-admin polkit-kde-agent qt5-wayland qt6-wayland \
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-user-dirs-gtk \
+  breeze breeze-gtk breeze-icons \
   hyprland hyprlock hypridle hyprcursor hyprpaper hyprpicker hyprshot waybar kitty rofi-wayland dolphin \
   zsh vi vim curl less \
   dolphin-plugins vivaldi dunst cliphist mpv pavucontrol ttf-font-awesome ttf-jetbrains-mono-nerd papirus-icon-theme \
