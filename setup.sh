@@ -18,7 +18,7 @@ sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-jack pipewir
   mesa lib32-mesa vulkan-intel vulkan-radeon ark kio-admin polkit-kde-agent qt5-wayland qt6-wayland \
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-user-dirs-gtk \
   hyprland hyprlock hypridle hyprcursor hyprpaper hyprpicker hyprshot waybar kitty rofi-wayland dolphin \
-  zsh vi vim curl \
+  zsh vi vim curl less \
   dolphin-plugins vivaldi dunst cliphist mpv pavucontrol ttf-font-awesome ttf-jetbrains-mono-nerd \
   ttf-opensans noto-fonts noto-fonts-emoji ttf-droid ttf-roboto ttf-fira-code ttf-fira-mono ttf-firacode-nerd \
   otf-font-awesome
